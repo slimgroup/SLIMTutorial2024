@@ -34,4 +34,5 @@ Tutorials for 2024 ML4Seismic meeting
 ## Notes
 
 1. Don't use `kubernetes`
-2. I can install python packages for everyone. But I cannot install Julia packages for everyone.
+2. Sometimes Jupyterhub needs to restart itself.
+3. Try to install Julia packages for everyone.
