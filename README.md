@@ -21,7 +21,7 @@ Tutorials for 2024 ML4Seismic meeting
    │   ├── Manifest.toml
    │   └── tutorial_notebook.ipynb
    ```
-4. Open a terminal and run `julia -e 'using Pkg'; Pkg.add("IJulia")`. This installs a Julia kernel to the Jupyter notebook. <p style="color:red;">**TODO**: Can I do this for everyone?</p>
+4. Open a terminal and run `julia -e 'using Pkg; Pkg.add("IJulia")`'. This installs a Julia kernel to the Jupyter notebook. <p style="color:red;">**TODO**: Can I do this for everyone?</p>
 5. `cd` into the directory of one of the tutorial and run the following commands to build the environment.
   ```julia
   using Pkg
