@@ -36,3 +36,15 @@ Tutorials for 2024 ML4Seismic meeting
 1. Don't use `kubernetes`
 2. Sometimes Jupyterhub needs to restart itself.
 3. Try to install Julia packages for everyone.
+
+# Notes on setting up Jupyterhub
+1.
+2. Add path of Julia/Juliap to `/etc/profile`
+```bash
+echo 'export PATH="/opt/juliaup/bin:$PATH"' | sudo tee -a /etc/profile
+```
+3. Permissions: Make sure the `/opt/juliaup` directory and its contents have appropriate permissions for read and execute access by all users:
+```bash
+sudo chmod -R 755 /opt/juliaup
+```
+
