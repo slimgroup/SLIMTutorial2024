@@ -38,7 +38,7 @@ Tutorials for 2024 ML4Seismic meeting
 ### General
 
 1. `Kubernetes` is too much. Use `The Littlest Jupyterhub`.
-2. Be aware sometimes Jupyer notebooks on JupyterHub needs to restart itself.
+2. Be aware sometimes Jupyer notebooks on JupyterHub needs to restart itself, if it sits for too long.
 
 ### Install Julia/Juliaup
 
